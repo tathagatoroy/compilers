@@ -20,10 +20,10 @@ enum Token {
 
 class lexer{
     // will return [0,255] for unknown values
-
+public:
     Token curTok;
     std::string identifierStr;
-    double numVals;
+    double numVal;
     
     int getToken();
     lexer(std::string input);

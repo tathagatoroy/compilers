@@ -1,0 +1,12 @@
+CompileFlags:
+    Add:
+        - "-std=c++20" # Or c++17, depending on your project
+        - "-Wall"
+        - "-I/usr/include" # Standard Linux headers
+        - "-I/usr/local/include"
+
+    # If you are working on Android/JNI specifically:
+    # - "-I${NDK_PATH}/sysroot/usr/include"
+
+Index:
+    Background: Build # Allows clangd to index your project in the background

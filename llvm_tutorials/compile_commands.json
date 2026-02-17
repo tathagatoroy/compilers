@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/tathagato/tathagato/compilers/llvm_tutorials",
+  "command": "/usr/bin/c++  -I/home/tathagato/tathagato/compilers/llvm_tutorials/includes -std=gnu++17 -o CMakeFiles/LexerLib.dir/src/lexer.cpp.o -c /home/tathagato/tathagato/compilers/llvm_tutorials/src/lexer.cpp",
+  "file": "/home/tathagato/tathagato/compilers/llvm_tutorials/src/lexer.cpp",
+  "output": "CMakeFiles/LexerLib.dir/src/lexer.cpp.o"
+},
+{
+  "directory": "/home/tathagato/tathagato/compilers/llvm_tutorials",
+  "command": "/usr/bin/c++  -I/home/tathagato/tathagato/compilers/llvm_tutorials/includes -isystem /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest/include -isystem /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest -std=gnu++17 -o CMakeFiles/run_lexer_tests.dir/tests/test_lexer.cpp.o -c /home/tathagato/tathagato/compilers/llvm_tutorials/tests/test_lexer.cpp",
+  "file": "/home/tathagato/tathagato/compilers/llvm_tutorials/tests/test_lexer.cpp",
+  "output": "CMakeFiles/run_lexer_tests.dir/tests/test_lexer.cpp.o"
+},
+{
+  "directory": "/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googlemock/include -I/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googlemock -isystem /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest/include -isystem /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googlemock/include -isystem /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googlemock -isystem /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest/include -isystem /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest/include -I/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -isystem /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest/include -isystem /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/tathagato/tathagato/compilers/llvm_tutorials/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+}
+]

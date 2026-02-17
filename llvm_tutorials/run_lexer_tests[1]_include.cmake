@@ -1,0 +1,5 @@
+if(EXISTS "/home/tathagato/tathagato/compilers/llvm_tutorials/run_lexer_tests[1]_tests.cmake")
+  include("/home/tathagato/tathagato/compilers/llvm_tutorials/run_lexer_tests[1]_tests.cmake")
+else()
+  add_test(run_lexer_tests_NOT_BUILT run_lexer_tests_NOT_BUILT)
+endif()
