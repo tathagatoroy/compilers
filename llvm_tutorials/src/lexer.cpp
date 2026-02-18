@@ -1,8 +1,4 @@
 #include "lexer.h"
-#include <cctype>
-#include <cstdlib>
-#include <string>
-#include <utility>
 
 lexer::lexer(std::string program) : input(std::move(program)) , lastIndex(0) {};
 
