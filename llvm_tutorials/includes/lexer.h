@@ -2,6 +2,11 @@
 #define LEXER_H
 
 #include<string>
+#include <cctype>
+#include <cstdlib>
+#include <string>
+#include <utility>
+
 
 
 enum Token {
