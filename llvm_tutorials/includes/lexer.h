@@ -29,8 +29,16 @@ public:
     Token curTok;
     std::string identifierStr;
     double numVal;
-    
-    int getToken();
+    /*
+     * returns either 
+     * 1. identifier and keywords token (identifierStr is filled)
+     * 2. tok_def 
+     * 3. tok_extern
+     * 4. numToken, numVal is filled 
+     * 5. EOF 
+     * 6. the last Char itself (This will be punctuations)
+     */
+    int getToken(); 
     lexer(std::string input);
         
 private:

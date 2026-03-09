@@ -16,7 +16,7 @@ public:
 class NumberExprAST : public ExprAST {
     double val;
 public:
-    NumberExprAST(double val) : val(val) {}
+    NumberExprAST(double valx) : val(valx) {}
 };
 
 class VariableExprAST: public ExprAST {
@@ -46,16 +46,16 @@ class PrototypeExprAST : public ExprAST {
     std::string name;
     std::vector<std::string> args;
 public:
-    PrototypeExprAST(std::string &Name, std::vector<std::string> Args) : name(Name) , args(std::move(Args)) {} // no copy for rvalue 
+    PrototypeExprAST(const std::string &Name, std::vector<std::string> Args) : name(Name) , args(std::move(Args)) {} // no copy for rvalue 
     const std::string& getName() const { return name; }
     
 };
 
-class FunctionExpr : public ExprAST {
+class FunctionExprAST : public ExprAST {
     std::unique_ptr<PrototypeExprAST> prototype;
     std::unique_ptr<ExprAST> body;
 public: 
-FunctionExpr(std::unique_ptr<PrototypeExprAST> Prototype , std::unique_ptr<ExprAST> Body) : prototype(std::move(Prototype)) , body(std::move(Body)) {}
+FunctionExprAST(std::unique_ptr<PrototypeExprAST> Prototype , std::unique_ptr<ExprAST> Body) : prototype(std::move(Prototype)) , body(std::move(Body)) {}
 
 };
 
